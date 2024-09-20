@@ -1,0 +1,77 @@
+header{
+    background-color: rgba(111, 27, 27, 0.77);
+    padding: 10px;
+    color: azure;
+}
+
+#blurb {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color: azure;
+    font-stretch: wider;
+}
+
+#submission {
+    padding: 20px;
+    margin: 4px;
+}
+
+button {
+    padding: 20px;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(242, 255, 0);
+    background-color: rgb(20, 88, 29);
+    border: solid sienna 10px;
+    border-radius: 10px
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    transform: rotate(3deg);
+    box-shadow: 0 4px 20px rgb(0, 0, 0)
+
+
+}
+
+.recipe {
+    padding: 20px;
+    border: solid 10px;
+    margin: 4px;
+}
+
+footer{
+    background-color: rgb(86, 29, 119);
+    padding: 20px;
+    color:bisque
+}
+
+.title, h3 {
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.ingredients {
+    font-family: 'Verdana', sans-serif;
+    font-size: 70%;
+}
+
+.steps {
+    font-family: 'Courier New', monospace;
+    font-size: .8em;
+}
+
+#cookie_pic {
+    margin: 10px;
+    padding: 13px;
+}
+
+.link {
+    color: rgb(13, 255, 0);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline
+}

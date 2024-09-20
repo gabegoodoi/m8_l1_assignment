@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submissions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>
+            Welcome to the Submissions Page
+        </h1>
+        
+        <form action="/submit" method="get">
+            <label for="text">Recipe Name</label><br>
+            <input type="text" placeholder="enter recipe name here" name="recipe_name" required><br><br>
+
+            <label for="textarea">Ingredients</label><br>
+            <textarea name="ingredients" placeholder="• First ingredient&#10;• Second ingredient&#10;• Third ingredient" rows="4" cols="34" required></textarea><br><br>
+
+            <label for="textarea">Instructions</label><br>
+            <textarea name="instructions" placeholder="1. First step&#10;2. Second step&#10;3. Third step" rows="4" cols="34" required></textarea><br><br>
+
+            <input type="submit">
+        </form>
+    </body>
+
+</html>
