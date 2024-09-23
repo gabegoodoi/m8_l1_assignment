@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PassGo - Sign In</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header id="signinhead">
+            <nav id="menu">
+                <ul>
+                    <li class="menu_item"><a href="home.html"><img class="icon" src="images/home.svg" alt="Home Icon"><span>Home</span></a></li>
+
+                    <li class="menu_item"><a href="about.html"><img class="icon" src="images/about.svg" alt="About Icon"><span>About</span></a></li>
+
+                    <li class="menu_item"><a href="services.html"><img class="icon" src="images/services.svg" alt="Services Icon"><span>Services</span></a></li>
+
+                    <li class="menu_item"><a href="contact.html"><img class="icon" src="images/contact.svg" alt="Contact Icon"><span>Contact</span></a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <div id="title">
+            Welcome to the Sign Up Page
+        </div>
+        
+        <form action="/submit" method="post">
+            <label for="email">Email Address</label><br>
+            <input type="email" placeholder="enter email here" name="email" required><br><br>
+            
+            <label for="name">Name</label><br>
+            <input placeholder="enter name here" name="name" required><br><br>
+
+            <label for="password">Password</label><br>
+            <input placeholder="enter password here" name="password" required><br><br>
+
+            <input id="submit" type="submit">
+        </form>
+    </body>
+
+</html>

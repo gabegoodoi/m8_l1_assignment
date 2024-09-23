@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Submissions</title>
+        <title>PassGo - Submissions</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>
-            Welcome to the Submissions Page
-        </h1>
+        <header>
+            <nav class="sites">
+                <a href="https://boardgamegeek.com/browse/boardgame">Search</a>
+                <a href="https://www.youtube.com/channel/UCGK9n7svoIjuaQfRIBJXkqQ">Learn</a>
+                <a href="https://en.boardgamearena.com/">Play</a> 
+                <a href="https://component.studio/v2/games">Draft</a>
+                <a href="https://cardboardedison.com/playtest-groups">Playtest</a>
+                <a href="https://www.thegamecrafter.com/">Craft</a>
+                <a href="https://screentop.gg/">Digitize</a>
+                <a href="https://www.gameosity.com/">Stay Informed</a>
+                <a href="https://tabletoppublishers.com/">Search Publishers</a>
+                <a href="https://www.ttgda.org/">Join The Club</a>
+            </nav>
+        </header>
+
+        <div id="title">
+            <h1>
+                PassGo 
+            </h1>
+            Welcome to the Sign In Page
+        </div>
         
         <form action="/submit" method="get">
-            <label for="text">Recipe Name</label><br>
-            <input type="text" placeholder="enter recipe name here" name="recipe_name" required><br><br>
+            <label for="text">Email Address</label><br>
+            <input type="email" placeholder="enter email here" name="email" required><br><br>
 
-            <label for="textarea">Ingredients</label><br>
-            <textarea name="ingredients" placeholder="• First ingredient&#10;• Second ingredient&#10;• Third ingredient" rows="4" cols="34" required></textarea><br><br>
+            <label for="textarea">Feedback</label><br>
+            <textarea name="feedback" placeholder="I noticed an issue with..." rows="4" cols="34" required></textarea><br><br>
 
-            <label for="textarea">Instructions</label><br>
-            <textarea name="instructions" placeholder="1. First step&#10;2. Second step&#10;3. Third step" rows="4" cols="34" required></textarea><br><br>
+            <label for="textarea">Suggestions</label><br>
+            <textarea name="suggestion" placeholder="I would love to see more..." rows="4" cols="34" required></textarea><br><br>
 
-            <input type="submit">
+            <input id="submit" type="submit">
         </form>
     </body>
 
